@@ -23,6 +23,10 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/style-color.css" rel="stylesheet">
 		
+		<!--JQuery-Scripts-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/mediaelement-and-player.min.js"></script>
+		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/logo/logo1.ico">
 	</head>
@@ -120,7 +124,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#latestalbum">Latest Album</a></li>
+								<li><a href="#latestalbum">Latest Release</a></li>
 								<li><a href="#featuredalbum">Featured Album</a></li>
 								<li><a href="#joinus">Join Us</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
@@ -189,7 +193,7 @@
 					<!-- hero content -->
 					<div class="hero-content ">
 						<!-- heading -->
-						<h2>Latest Album</h2>
+						<h2>Latest Release</h2>
 						<hr>
 						<!-- paragraph -->
 						<p>We sing the best <strong class="theme-color">Songs</strong> and now we control the world best <strong class="theme-color">Music</strong>.</p>
@@ -214,7 +218,19 @@
 									<!-- paragraph -->
 									<p>Lorem Ipsum has been the industry's standard dummy text ever since 1500.</p>
 									<!-- button -->
-									<a href="#" class="btn btn-lg btn-theme" id="playNowBtn"><i class="fa fa-play"></i>&nbsp; Play Now</a>
+									<a href="#" class="btn btn-lg btn-theme" id="audio-player">
+										<script>
+    											$(document).ready(function() {
+        										$('#audio-player').mediaelementplayer({
+           										alwaysShowControls: true,
+            										features: ['playpause','volume','progress'],
+            										audioVolume: 'horizontal',
+            										audioWidth: 400,
+           										audioHeight: 120
+									        	});
+									    		});
+										</script>
+										<i class="fa fa-play"></i>&nbsp; Play Now</a>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6">
@@ -364,7 +380,7 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Featured Album</h2>
+						<h2>Just Be You</h2>
 					</div>
 					<!-- featured album elements -->
 					<div class="featured-element">
