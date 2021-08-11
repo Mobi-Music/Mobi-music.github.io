@@ -1257,16 +1257,16 @@ div.audio-player {
 }
 			</style>
 			<script type="text/javascript">
-jQuery(document).ready(function ($) {
-        $('#audio-player').mediaelementplayer({
-				alwaysShowControls: true,
-				features: ['playpause','volume','progress'],
-				audioVolume: 'horizontal',
-				audioWidth: 400,
-				audioHeight: 120
-			});
-});
-</script>
+				$(document).ready(function() {
+        			$('#audio-player').mediaelementplayer({
+					alwaysShowControls: true,
+					features: ['playpause','volume','progress'],
+					audioVolume: 'horizontal',
+					audioWidth: 400,
+					audioHeight: 120
+					});
+				});
+			</script>
 			
 	</body>	
 </html>
