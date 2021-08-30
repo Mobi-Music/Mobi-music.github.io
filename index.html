@@ -26,34 +26,7 @@
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/logo/logo1.ico">
-		
-		
-		
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-		<script type="text/javascript">
-		(function() {
-		emailjs.init("user_mTaJKP7o5tsNziV8Z9U3u");
-		})();
-		</script>
-		
-		<script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // generate a five digit number for the contact_number variable
-                this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.sendForm('contact_service', 'contact_form', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
 	
-		
 	</head>
 	
 	<body>
@@ -67,8 +40,7 @@
 					<div class="container">
 						<!-- secondary menu left link area -->
 						<div class="sm-left">
-							<strong>Phone</strong>:&nbsp; <a href="#">(724) 418-2098</a>&nbsp;&nbsp;&nbsp;&nbsp;
-							<strong>E-mail</strong>:&nbsp; <a href="#">mobimusicofficial2021@gmail.com</a>
+							<strong>E-mail</strong>:&nbsp; <a href="#emailform">mobimusicofficial2021@gmail.com</a>
 						</div>
 						<!-- secondary menu right link area -->
 						<div class="sm-right">
@@ -142,7 +114,7 @@
 									<!-- paragraph -->
 									<h3 class="animated fadeInRightBig">Mobi Music's Main Site <br>contains all of our recent music</h3>
 									<!-- button -->
-									<a href="#" class="animated fadeIn btn btn-theme">Listen Now</a>
+									<a href="music.html#latestalbum" class="animated fadeIn btn btn-theme">Listen Now</a>
 								</div>
 							</div>
 						</div>
@@ -162,60 +134,19 @@
 			<!-- block for animate navigation menu -->
 			<div class="nav-animate"></div>
 			
-			<!-- Hero block area -->
-			<div id="latestalbum" class="hero pad">
-				<div class="container">
-					<!-- hero content -->
-					<div class="hero-content ">
-						<!-- heading -->
-						<h2>Latest Release</h2>
-					</div>
-					<!-- hero play list -->
-					<div class="hero-playlist">
-						<div class="row">
-							<div class="md-40">
-								 <div class="figure">
-								 <img class="img-responsive" src="img/album/justbeyou/1.jpg">
-								 </div>
-									<!-- album details -->
-									<div class="album-details">
-										<!-- title -->
-										<h4>Just Be You</h4>
-										<!-- composed by -->
-										<h5>By Anthem Lights</h5>
-										<!-- button -->
-
-										<div class"music">
-											 <audio controls>
-													<source src="media/latest.mp3" type="audio/mpeg">
-											 </audio>
-										</div>
-									</div>
-								</div>
-							</div>
-					</div>
-			</div>
-			<!--/ hero end -->
 			
 			
 			
 			
 			
 			
+		
 			<div class="news-letter">
 				<div class="container">
-						<h3>Sign Up For Newsletter</h3>
-						<p>Don't forget to subscribe for more awesome stuff and updates from Mobi Music!</p>
-						<form id="contact-form">
-							<div class="input-group">
-								<input type="hidden" name="message">
-								<input type="hidden" name="user_name">
-								<input name="user_email" type="text" class="form-control input-lg" placeholder="Email">
-								<span class="input-group-btn">
-									<button class="btn btn-default btn-lg" type="submit">Subscribe</button>
-								</span>
-						</form>
+				    <div class="default-heading">
+						<h2 style="color:white">Mobi Music Newsletter</h2>
 					</div>
+						<iframe width="550" height="415" src="https://644ffd0f.sibforms.com/serve/MUIEAKqX-Gri0muhVbJstoizH0MKK6KdUH0ovd3yA5OQBlzLbyx9eKCeJveTAlrOQ-Psq_IC8_9Jn_sY2mRdkcidGepOJPKk9WXk0V6NE1Mtlvu-qHID5hjvTCJt1Hu3IYCAY3z_GIYr389vbmhkWclifaPit3ftZLf2FVIjRkV2wsnfLsBrhNs2ImYcREvV1DlMNhmq4dJCPTFp" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 				</div>
 			</div>
 			<div class="contact pad" id="contact">
@@ -225,31 +156,9 @@
 					</div>
 					
 				
-					<div class="form-content ">
-						<p>Do you have any idea in your mind? Drop us a line.</p>
-						<form id="contact-form">
-							<div class="row">
-								<div class="col-md-6 col-sm-6">
-									<div class="form-group">
-										<label for="name">Name</label>
-										<input type="text" class="form-control" id="name" name="user_name" placeholder="Enter name">
-									</div>
-									<div class="form-group">
-										<label for="email">Email</label>
-										<input type="email" class="form-control" id="email" name="user_email" placeholder="Enter email">
-									</div>
-								</div>
-								<div class="col-md-6 col-sm-6">
-									<div class="form-group">
-										<label for="message">Message</label>
-										<textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter message"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="text-center">
-								<button type="submit" class="btn btn-lg btn-theme">Send Message</button>
-							</div>
-						</form>
+					<div class="form-content" id="emailform">
+						<p>Do you have a song you want us to cover? Drop us a line.</p>
+						<iframe width="750" height="600" src="https://644ffd0f.sibforms.com/serve/MUIEACLTRQI5DQ6M5JcOIPmhjrsZSYZq9gpVaPpjQQav6CW1qiSwyTWFLwEafkzz7C6z0x7ycWKHaHdlYjPKQIfb3l2ak0wghonaFVcAGle5RO8_i0iEVdiNGBLlIeczuaEfhG-aP8lpHo0Dbv9TwurR1OAmCMR9By-6VKR68-w84zqaukgYDjPp7BxhUiYA92vi-bSsHTzsOIup" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 												
 					</div>
 
@@ -293,6 +202,6 @@
 		<script src="js/html5shiv.js"></script>
 		<!-- Custom JS -->
 		<script src="js/custom.js"></script>
-			
+			</div>
 	</body>	
 </html>
