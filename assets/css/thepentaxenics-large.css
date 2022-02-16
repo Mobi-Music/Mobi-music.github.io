@@ -1,18 +1,15 @@
-p#copyright
-{
-	text-align:center;
-}
-
 h3#title1
 {
-	font-size: 30;
-	padding-bottom: 15px;
+	font-size: 45;
+
 }
-h1#h1
+.best-features h3#price
 {
-	font-size: 20;
-	text-align: center;
+	font-size: 70px;
+	color:#048200;
+
 }
+
 img#logo
 {
 	height: auto;
@@ -21,13 +18,12 @@ img#logo
 
 h2#p1
 {
-	font-size: 20;
-	padding-bottom:  30px;
+	font-size: 25;
 }
 
 li#li1
 {
-	font-size: 30;
+	font-size: 35;
 }
 
 body {
@@ -55,6 +51,7 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+	text-align: center;
 }
 
 ul.social-icons li {
@@ -102,32 +99,23 @@ a.filled-button:hover {
 
 .section-heading {
 	text-align: left;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	border-bottom: 1px solid #eee;
 }
 
 .section-heading h2 {
-	font-size: 35px;
+	font-size: 70px;
 	font-weight: 550;
-	text-align: center;
 	color: #1e1e1e;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
-.section-heading h2#lp-title {
-	font-size: 45px;
-	font-weight: 550;
-	text-align: center;
-	color: #1e1e1e;
-	margin-bottom: 5px;
-}
-
-.products-heading {
+.music-heading {
 	padding: 200px 0px 150px 0px;
 	background-image: url(../images/scales.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center 29px;
+	background-position: center 39px;
 }
 
 .about-heading {
@@ -135,8 +123,8 @@ a.filled-button:hover {
 }
 
 .contact-heading {
-	padding: 150px 0px;
-	background-image: url(../images/XXChainmailWithBackground.png);
+	padding: 200px 0px 200px 0px;
+	background-image: url(../images/ThePentaXenicsWideWithBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -144,7 +132,7 @@ a.filled-button:hover {
 
 .page-header {
 	padding: 150px 50px;
-	background-image: url(../images/XXChainmailWithBackground.png);
+	background-image: url(../images/ThePentaXenicsWideWithBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -166,7 +154,7 @@ a.filled-button:hover {
 }
 
 .send-message .text-content h1 {
-	color: #20003b;
+	color: #060045;
 	font-size: 55px;
 	text-align: center;
 	text-transform: uppercase;
@@ -176,8 +164,9 @@ a.filled-button:hover {
 
 .send-message .text-content h2 {
 	color: #000;
-	font-size: 25px;
+	font-size: 35px;
 	text-align: center;
+	letter-spacing: 5px;
 }
 .page-heading .text-content h4 {
 	color: #048200;
@@ -187,7 +176,7 @@ a.filled-button:hover {
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 5px;
-	background-color: #20003b;
+	background-color: #060045;
 }
 
 .page-heading .text-content h1 {
@@ -201,7 +190,7 @@ a.filled-button:hover {
 
 .page-heading .text-content h2 {
 	color: #fff;
-	font-size: 50px;
+	font-size: 62px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -216,7 +205,7 @@ a.filled-button:hover {
   bottom: 0;
   position: fixed;
   z-index: 9999999;
-  color: #20003b;
+  color: #060045;
 }
 
 #preloader .jumper {
@@ -293,7 +282,7 @@ header {
 	z-index: 99999;
 	width: 100%;
 	height: 80px;
-	background-color: #20003b;
+	background-color: #060045;
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
@@ -308,7 +297,7 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: #20003b!important;
+	background-color: #060045!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
@@ -326,7 +315,7 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: -10px;
+	margin-top: -12px;
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -374,8 +363,8 @@ header .navbar {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: #20003b;
-	background-color: #20003b;	
+	border-color: #060045;
+	background-color: #060045;	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -402,7 +391,7 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 150px 0px;
-	background-image: url(../images/XXChainmailWideWithBackground.png);
+	background-image: url(../images/ThePentaXenicsWideWithBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -487,12 +476,12 @@ header .navbar {
 
 /* Latest Produtcs */
 
-.latest-products {
-	margin-top: 25px;
+.latest-music {
+	margin-top: 20px;
 }
 
-.latest-products .section-heading a {
-	margin-top: -95px;
+.latest-music .section-heading a {
+	float: right;
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: 700;
@@ -507,7 +496,7 @@ header .navbar {
 .product-item .down-content {
 	padding: 30px;
 	position: relative;
-	background-color: #20003b;
+	background-color: #060045;
 }
 
 .product-item img {
@@ -517,7 +506,7 @@ header .navbar {
 
 .product-item .down-content h4 {
 	font-size: 23px;
-	color: #dc143c;
+	color: #900000;
 	margin-bottom: 10px;
 	font-weight: bold;
 
@@ -527,7 +516,7 @@ header .navbar {
 	top: 30px;
 	right: 30px;
 	font-size: 20px;
-	color: #f7f7f7;
+	color: #ffbb00;
 }
 
 .product-item .down-content p {
@@ -580,7 +569,8 @@ header .navbar {
 }
 
 .best-features img {
-	width: 75%;
+	position: center;
+	width: 45%;
 	overflow: hidden;
 }
 
@@ -633,6 +623,7 @@ header .navbar {
 .best-features .filled-button {
 	margin-top: 20px;
 }
+ 
 
 
 
@@ -643,7 +634,7 @@ header .navbar {
 .call-to-action .inner-content {
 	margin-top: 20px;
 	padding: 30px;
-	background-color: #f7f7f7;
+	background-color: #ffbb00;
 	border-radius: 5px;
 }
 
@@ -659,14 +650,11 @@ header .navbar {
 }
 
 .call-to-action .inner-content .col-md-4 {
-	text-align: center;
+	text-align: right;
 }
 
 .call-to-action .inner-content .filled-button {
-	margin-top: 12;
-	/* top: 50%; */
-	/* left: 50%; */
-	/* margin-left: -69.2px; */
+	margin-top: 12px;
 }
 
 
@@ -698,18 +686,18 @@ footer .inner-content p a {
 
 /* Product Page */
 
-.products {
+.music {
 	margin-top: 100px;
 }
 
-.products .filters {
+.music .filters {
 	text-align: center;
 	border-bottom: 1px solid #eee;
 	padding-bottom: 10px;
 	margin-bottom: 60px;
 }
 
-.products .filters li {
+.music .filters li {
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 700;
@@ -720,22 +708,22 @@ footer .inner-content p a {
 	cursor: pointer;
 }
 
-.products .filters ul li.active,
-.products .filters ul li:hover {
+.music .filters ul li.active,
+.music .filters ul li:hover {
   color: #048200;
 }
 
-.products ul.pages {
+.music ul.pages {
 	margin-top: 30px;
 	text-align: center;
 }
 
-.products ul.pages li {
+.music ul.pages li {
 	display: inline-block;
 	margin: 0px 2px;
 }
 
-.products ul.pages li a {
+.music ul.pages li a {
 	width: 44px;
 	height: 44px;
 	display: inline-block;
@@ -747,16 +735,16 @@ footer .inner-content p a {
 	transition: all .3s;
 }
 
-.products ul.pages li a:hover,
-.products ul.pages li.active a {
+.music ul.pages li a:hover,
+.music ul.pages li.active a {
 	background-color: #048200;
 	border-color: #048200;
-	color: #20003b;
+	color: #060045;
 }
 
 
 
-/* Team Members */
+/* Team Usmbers */
 
 .team-members {
 	margin-top: 100px;
@@ -845,7 +833,7 @@ footer .inner-content p a {
 }
 
 .services .service-item .icon {
-	background-color: #f7f7f7;
+	background-color: #ffbb00;
 	padding: 40px;
 }
 
@@ -923,7 +911,7 @@ footer .inner-content p a {
 
 
 
-/* Send Message */
+/* Send Usssage */
 
 .send-message {
 	margin-top: 25px;
@@ -1016,11 +1004,11 @@ footer .inner-content p a {
 	padding: 15px 0px;
 }
 
-
+@media (max-width: 992px) {
 	.navbar .navbar-brand {
 		position: absolute;
-		left: 15px;
-		top: 16px;
+		left: 30px;
+		top: 32px;
 	}
 	.navbar .navbar-brand {
 		width: auto;
@@ -1035,7 +1023,7 @@ footer .inner-content p a {
 	    left: 0;
 	    width: 100%;
 	    text-align: center;
-	    background-color: #20003b;
+	    background-color: #060045;
 	    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	}
 	.navbar .navbar-nav .nav-item {
@@ -1058,11 +1046,9 @@ footer .inner-content p a {
 		padding-bottom: 15px;
 	}
 	.product-item .down-content h4 {
-		text-align: center;
 		margin-bottom: 10px;
 	}
 	.product-item .down-content h6 {
-		text-align: center;
 		position: relative;
 		top: 0;
 		right: 0;
