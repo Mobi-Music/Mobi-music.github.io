@@ -1,7 +1,14 @@
+p#copyright
+{
+	text-align:center;
+	color:#ffbb00;
+}
+
 h3#title1
 {
 	font-size: 45;
 	margin-bottom:5px;
+	color:#ffbb00;
 }
 
 img#logo
@@ -14,15 +21,18 @@ h2#p1
 {
 	font-size: 25;
 	margin-bottom:15px;
+	color:#ffbb00;
 }
 
 li#li1
 {
 	font-size: 35;
+	color:#ffbb00;
 }
 
 
 body {
+	background-color:#3e0000!important;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -96,13 +106,13 @@ a.filled-button:hover {
 .section-heading {
 	text-align: left;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #ffbb00;
 }
 
 .section-heading h2 {
 	font-size: 55px;
 	font-weight: 550;
-	color: #1e1e1e;
+	color: #ffbb00;
 	margin-bottom: 3px;
 	text-align: center;
 }
@@ -142,7 +152,7 @@ a.filled-button:hover {
 	background-size: cover;
 }
 .send-message .text-content h4 {
-	color: #048200;
+	color: #ffbb00;
 	font-size: 22px;
 	text-align: center;
 	text-transform: uppercase;
@@ -165,7 +175,7 @@ a.filled-button:hover {
 	text-align: center;
 }
 .page-heading .text-content h4 {
-	color: #048200;
+	color: #ffbb00;
 	font-size: 22px;
 	width: 175px;
 	text-align: center;
@@ -307,7 +317,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #048200!important;
+	color: #ffbb00!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -353,7 +363,7 @@ header .navbar {
 .navbar .navbar-nav .show>.nav-link {
 	color: #949494;
 	padding-bottom: 25px;
-	border-bottom: 3px solid #048200;
+	border-bottom: 3px solid #ffbb00;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -370,7 +380,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #048200;
+	color: #ffbb00;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -565,7 +575,7 @@ header .navbar {
 }
 
 .best-features img {
-	width: 65%;
+	width: 85%;
 	overflow: hidden;
 }
 
@@ -661,7 +671,7 @@ footer {
 }
 
 footer .inner-content {
-	border-top: 1px solid #eee;
+	border-top: 1px solid #ffbb00;
 	margin-top: 10px;
 	padding: 10px 0px;
 }
@@ -1033,7 +1043,7 @@ footer .inner-content p a {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #048200!important;
+		color: #ffbb00!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}
