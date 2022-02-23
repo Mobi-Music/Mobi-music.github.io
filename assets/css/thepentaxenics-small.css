@@ -180,13 +180,14 @@ a.filled-button:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
+	margin-bottom: 25px;
 }
 
 .send-message .text-content h2 {
 	color: #ffbb00;
 	font-size: 20px;
 	text-align: center;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin-bottom: 25px;
 
 	
 }
@@ -207,7 +208,7 @@ a.filled-button:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 .page-heading .text-content h2 {
