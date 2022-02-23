@@ -1086,7 +1086,7 @@ footer .inner-content p a {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #048200!important;
+		color: #ffbb00!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}

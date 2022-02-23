@@ -384,7 +384,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #048200;
+	color: #ffbb00;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -495,7 +495,7 @@ header .navbar {
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: 700;
-	color: #048200;
+	color: #ffbb00;
 }
 
 .product-item {
@@ -1051,7 +1051,7 @@ footer .inner-content p a {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #048200!important;
+		color: #ffbb00!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}
