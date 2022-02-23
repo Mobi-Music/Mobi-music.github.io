@@ -176,17 +176,19 @@ a.filled-button:hover {
 
 .send-message .text-content h1 {
 	color: #ffbb00;
-	font-size: 55px;
+	font-size: 35px;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 25px;
 }
 
 .send-message .text-content h2 {
-	color: #000;
-	font-size: 25px;
+	color: #ffbb00;
+	font-size: 20px;
 	text-align: center;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+	
 }
 .page-heading .text-content h4 {
 	color: #ffbb00;
@@ -210,7 +212,7 @@ a.filled-button:hover {
 
 .page-heading .text-content h2 {
 	color: #fff;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
