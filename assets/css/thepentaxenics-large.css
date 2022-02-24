@@ -499,19 +499,19 @@ header .navbar {
 }
 
 .product-item {
-	border: 1px solid #eee;
 	margin-bottom: 30px;
 }
 
 .product-item .down-content {
-	padding: 30px;
+	background_color: #ffbb00;
+	padding: 10px;
 	position: relative;
-	background-color: #3e0000;
 }
 
 .product-item img {
 	width: 100%;
 	overflow: hidden;
+	border: 1px solid #ffbb00;
 }
 
 .product-item .down-content h4 {
@@ -525,7 +525,8 @@ header .navbar {
 .product-item .down-content h6 {
 	top: 30px;
 	right: 30px;
-	font-size: 20px;
+	font-size: 35px;
+	font: bold;
 	color: #ffbb00;
 }
 
