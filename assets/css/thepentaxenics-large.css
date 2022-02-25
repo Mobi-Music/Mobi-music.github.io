@@ -133,7 +133,8 @@ a.filled-button:hover {
 }
 
 .contact-heading {
-	padding: 20px 0px 20px 0px;
+	border-bottom: 1px solid #ffbb00;
+	padding: 150px 0px 50px 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -200,7 +201,6 @@ a.filled-button:hover {
 	color: #ffbb00;
 	font-size: 62px;
 	text-align: center;
-	
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
