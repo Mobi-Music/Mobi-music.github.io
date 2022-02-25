@@ -130,8 +130,7 @@ a.filled-button:hover {
 }
 
 .contact-heading {
-	padding: 200px 0px 200px 0px;
-	background-image: url(../images/ThePentaXenicsWithBackground.png);
+	padding: 20px 0px 20px 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center -15px;

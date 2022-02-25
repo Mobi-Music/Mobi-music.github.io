@@ -133,8 +133,7 @@ a.filled-button:hover {
 }
 
 .contact-heading {
-	padding: 200px 0px 200px 0px;
-	background-image: url(../images/ThePentaXenicsWideWithBackground.png);
+	padding: 20px 0px 20px 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -142,7 +141,6 @@ a.filled-button:hover {
 
 .page-header {
 	padding: 150px 50px;
-	background-image: url(../images/ThePentaXenicsWideWithBackground.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -190,7 +188,7 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h1 {
-	color: #048200;
+	color: #ffbb00;
 	font-size: 70px;
 	text-align: center;
 	text-transform: uppercase;
@@ -199,7 +197,7 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h2 {
-	color: #fff;
+	color: #ffbb00;
 	font-size: 62px;
 	text-align: center;
 	text-transform: uppercase;
@@ -208,7 +206,7 @@ a.filled-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #048200;
+  background: #3e0000;
   left: 0;
   right: 0;
   top: 0;
