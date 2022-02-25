@@ -32,12 +32,8 @@
     <link rel="stylesheet" href="https://thepentaxenics.github.io/assets/css/owl.css">
     <title>Message</title>
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-	<link rel="stylesheet" href="assets/css/media_element.css">
-	<link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/player-small.css">
-	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1200px)" href="assets/css/player-medium.css">
-	<link rel="stylesheet" media="screen and (min-width: 1200px)" href="assets/css/player-large.css">
+	<link rel="stylesheet" href="assets/css/player.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/media_element.js"></script>
     <script src="assets/js/player.js"></script>
     
 </head>
@@ -68,24 +64,17 @@
           </div>
       </nav>
     </header>
-    <div class="contain">
-        <div class="container">
-            <div class="music-player">
-                <div class="cover">
-                    <img src="https://thepentaxenics.github.io/assets/images/albums/unconditionally.png" alt="">   
-                </div>
-                <div class="titre">
-                    <h3>The PentaXenics</h3>
-                    <h1>Message</h1>
-                </div>
-                <div class="lecteur">
-                    <audio style="width: 100%;" class="fc-media">
-                        <source src="https://thepentaxenics.github.io/assets/audio/unconditionally/Message.wav" type="audio/wav"/>
-                    </audio>
-                </div>
-            </div>
-        </div>
-    </div>
+	
+	<div class="simple-audio/unconitionally-player" id="simp" data-config='{"shide_top":false,"shide_btm":false,"auto_load":true}'>
+	<div class="simp-playlist">
+    <ul>
+      <li class="simp-active"><span class="simp-source" data-src="http://thepentaxenics.github.io/assets/audio/unconditionally/Message.wav">Message</span><span class="simp-desc">The PentaXenics</span></li>
+      </ul>
+  </div>
+</div>
+
+
+
     <script src="assets/js/player.js"></script>
 
    
