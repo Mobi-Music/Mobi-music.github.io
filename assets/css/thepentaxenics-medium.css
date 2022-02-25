@@ -197,8 +197,8 @@ a.filled-button:hover {
 }
 
 .page-heading .text-content h2 {
-	color: #fff;
-	font-size: 62px;
+	color: #ffbb00;
+	font-size: 45px;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -371,8 +371,8 @@ header .navbar {
 	background-image: none;
 }
 .navbar .navbar-toggler {
-	border-color: #ffbb00;
-	background-color: #ffbb00;	
+	border-color: #3e0000;
+	background-color: #3e0000;	
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
